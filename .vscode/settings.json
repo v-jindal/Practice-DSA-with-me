@@ -1,0 +1,10 @@
+{
+  "files.exclude": {
+    "**/*.class": true
+  },
+  "code-runner.showExecutionMessage": false,
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.executorMap": {
+    "java": "cd $dir && javac $fileName && java $fileNameWithoutExt"
+  }
+}
