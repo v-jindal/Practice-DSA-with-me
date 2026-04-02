@@ -1,0 +1,13 @@
+public class TreeRec {
+    static void fun(int n){
+         if(n<=0) return;
+         System.out.println("Pre call " + n);
+         fun(n-1);
+         System.out.println("In b/w call " + n);
+         fun(n-2);
+         System.out.println("Post call " + n);
+    }
+    public static void main(String[] args) {
+        fun(3);
+    }
+}
