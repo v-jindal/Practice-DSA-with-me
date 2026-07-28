@@ -1,4 +1,3 @@
-import java.util.*;
 public class SecondLargest {
     static int second(int[] a){
         int first = -1;

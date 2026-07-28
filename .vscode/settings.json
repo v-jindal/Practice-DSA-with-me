@@ -13,6 +13,13 @@
     ".vscode/Recursion",
     ".vscode/Loops",
     ".vscode/Branch Recursion",
-    ".vscode/Array"
-  ]
+    ".vscode/Array",
+    ".vscode/ArrayPart-II",
+    ".vscode/Sorting",
+    ".vscode/Tree",
+    ".vscode/DP",
+    ".vscode/2D-Array",
+    ".vscode/Linked List"
+  ],
+  "java.project.referencedLibraries": []
 }
