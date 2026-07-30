@@ -19,7 +19,8 @@
     ".vscode/Tree",
     ".vscode/DP",
     ".vscode/2D-Array",
-    ".vscode/Linked List"
+    ".vscode/Linked List",
+    ".vscode/Stack and Queue"
   ],
   "java.project.referencedLibraries": []
 }
