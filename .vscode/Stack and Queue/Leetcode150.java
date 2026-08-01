@@ -5,7 +5,6 @@ public class Leetcode150 {
     public static int evalRPN(String[] tokens) {
         int n = tokens.length;
         Deque<Integer> stack = new ArrayDeque<>();
-        int res = 0;
         for(int i = 0; i < n; i++){
             String c = tokens[i];
             if(c.equals("+") || c.equals("-") || c.equals("/") || c.equals("*") ){
