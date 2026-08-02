@@ -1,14 +1,14 @@
-class Node{
+class Node1{
     int val;
-    Node next;
-    Node(int val){
+    Node1 next;
+    Node1(int val){
         this.val = val;
     }
 }
 class MyLinkedList {
-    Node head;
+    Node1 head;
     int size;
-    Node tail;
+    Node1 tail;
     public MyLinkedList() {
         head = null;
         tail = null;
@@ -17,7 +17,7 @@ class MyLinkedList {
     
     public int get(int index) {
         if(head == null || index >= size) return -1;
-        Node temp = head;
+        Node1 temp = head;
         for(int i = 0; i < index; i++){
             temp = temp.next;
         }
@@ -25,7 +25,7 @@ class MyLinkedList {
     }
     
     public void addAtHead(int val) {
-        Node n = new Node(val);
+        Node1 n = new Node1(val);
         size++;
         if(head == null){
             head = tail = n;
@@ -38,7 +38,7 @@ class MyLinkedList {
     
     public void addAtTail(int val) {
         size++;
-        Node n = new Node(val);
+        Node1 n = new Node1(val);
         if(head == null){
             head = tail = n;
         }
@@ -59,8 +59,8 @@ class MyLinkedList {
             addAtTail(val);
         }
         else{
-            Node n = new Node(val);
-            Node temp = head;
+            Node1 n = new Node1(val);
+            Node1 temp = head;
             for(int i = 0; i < index - 1; i++){
                 temp = temp.next;
             }
@@ -81,12 +81,12 @@ class MyLinkedList {
             size--;
         } 
         else{
-            Node temp = head;
+            Node1 temp = head;
             for(int i = 0; i < index - 1; i++){
                 temp = temp.next;
             }
             temp.next = temp.next.next;
-            if(temp. next == null){
+            if(temp.next == null){
                 tail = temp;
             }
             size--;
