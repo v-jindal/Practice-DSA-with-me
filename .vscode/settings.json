@@ -8,19 +8,19 @@
     "java": "cd $dir && javac $fileName && java $fileNameWithoutExt"
   },
   "java.project.sourcePaths": [
-    ".vscode/Recursion with String",
-    ".vscode/Recursion with Array",
-    ".vscode/Recursion",
-    ".vscode/Loops",
-    ".vscode/Branch Recursion",
-    ".vscode/Array",
-    ".vscode/ArrayPart-II",
-    ".vscode/Sorting",
-    ".vscode/Tree",
-    ".vscode/DP",
-    ".vscode/2D-Array",
-    ".vscode/Linked List",
-    ".vscode/Stack and Queue"
+    ".Recursion with String",
+    ".Recursion with Array",
+    ".Recursion",
+    ".Loops",
+    ".Branch Recursion",
+    ".Array",
+    ".ArrayPart-II",
+    ".Sorting",
+    ".Tree",
+    ".DP",
+    ".2D-Array",
+    ".Linked List",
+    ".Stack and Queue"
   ],
   "java.project.referencedLibraries": [],
   "java.debug.settings.onBuildFailureProceed": true
