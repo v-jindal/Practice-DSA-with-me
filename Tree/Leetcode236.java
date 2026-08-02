@@ -24,7 +24,7 @@ public class Leetcode236 {
         root.right.left = new TreeNode(0);
         root.right.right = new TreeNode(8);
         TreeNode p = root.left.left;
-        TreeNode q = root.right.left;
+        TreeNode q = root.left;
         TreeNode lca = lowestCommonAncestor(root, p, q);
         System.out.println("Lowest Common Ancestor of " + p.val + " and " + q.val + " is: " + lca.val);
     }
