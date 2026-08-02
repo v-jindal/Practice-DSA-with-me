@@ -22,5 +22,6 @@
     ".vscode/Linked List",
     ".vscode/Stack and Queue"
   ],
-  "java.project.referencedLibraries": []
+  "java.project.referencedLibraries": [],
+  "java.debug.settings.onBuildFailureProceed": true
 }
