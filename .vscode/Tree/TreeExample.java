@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 class TreeNode<T> { //<T> indicates datatype is not known
     T data;
     TreeNode<T> left;
@@ -23,22 +22,18 @@ public class TreeExample{
         root.right = buildTree();
         return root;
     }
-    // Preorder Traversal
     static void preOrder(TreeNode<Integer> root){
         if(root == null) return;
         System.out.print(root.data+" ");
         preOrder(root.left);
         preOrder(root.right);
     }
-
-    // Inorder Traversal
     static void inOrder(TreeNode<Integer> root){
         if(root == null) return;
         inOrder(root.left);
         System.out.print(root.data+" ");
         inOrder(root.right);
     }
-    // Postorder Traversal
     static void postOrder(TreeNode<Integer> root){
         if(root == null) return;
         postOrder(root.left);
@@ -49,5 +44,9 @@ public class TreeExample{
     public static void main(String[] args) {
         TreeNode<Integer> root = buildTree();
         preOrder(root);
+        System.out.println();
+        inOrder(root);
+        System.out.println();
+        postOrder(root); 
     }
 }
