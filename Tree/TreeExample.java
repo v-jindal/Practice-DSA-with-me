@@ -40,7 +40,6 @@ public class TreeExample{
         postOrder(root.right);
         System.out.print(root.data+" ");
     }
-
     public static void main(String[] args) {
         TreeNode1<Integer> root = buildTree();
         preOrder(root);
