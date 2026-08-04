@@ -20,7 +20,8 @@
     "DP",
     "2D-Array",
     "Linked List",
-    "Stack and Queue"
+    "Stack and Queue",
+    "BST"
   ],
   "java.project.referencedLibraries": [],
   "java.debug.settings.onBuildFailureProceed": true
