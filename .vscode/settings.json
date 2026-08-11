@@ -21,7 +21,8 @@
     "2D-Array",
     "Linked List",
     "Stack and Queue",
-    "BST"
+    "BST", 
+    "Graph"
   ],
   "java.project.referencedLibraries": [],
   "java.debug.settings.onBuildFailureProceed": true
